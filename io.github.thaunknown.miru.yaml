@@ -43,8 +43,8 @@ modules:
         path: io.github.thaunknown.miru.metainfo.xml
       - type: file
         dest-filename: miru.AppImage
-        url: https://github.com/thaunknown/miru/releases/download/v3.11.0/linux-Miru-3.11.0.AppImage
-        sha512: 3d5ee1bf0f7de9350670e795bab1d32ef0eae13b99d3902aabe894f97ba529d3826a0a05c2e0f7d2bfdc13902bd2770c208b6527c3b7e4e437e54035b38e67d3
+        url: https://github.com/thaunknown/miru/releases/download/v3.11.1/linux-Miru-3.11.1.AppImage
+        sha512: 1c97ace0cdb96b0a2babe5c4f932ee6f5bd2c178a27853783f670fb1f5fdd6c75a5bc4db2dfc6b2b8a7e096505b0c148f7bbcb1151d4486bba677431b2720629
         only-arches: [x86_64]
         x-checker-data:
           type: json
