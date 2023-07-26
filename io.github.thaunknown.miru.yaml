@@ -38,6 +38,7 @@ modules:
       - type: script
         dest-filename: miru-run
         commands:
+          - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
           - zypak-wrapper /app/bin/miru/miru "$@"
       - type: file
         path: io.github.thaunknown.miru.metainfo.xml
