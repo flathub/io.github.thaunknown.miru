@@ -14,7 +14,7 @@ finish-args:
   - --own-name=org.mpris.MediaPlayer2.chromium.instance3
   - --socket=pulseaudio
   - --filesystem=xdg-videos:rw
-  - --filesystem=xdg-cache:rw
+  - --filesystem=xdg-cache:create
   - --filesystem=xdg-run/discord-ipc-0:ro
 modules:
   - name: miru
