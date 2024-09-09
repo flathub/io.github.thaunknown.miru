@@ -10,7 +10,7 @@ finish-args:
   - --device=dri
   - --share=ipc
   - --share=network
-  - --socket=x11
+  - --socket=fallback-x11
   - --socket=wayland
   - --own-name=org.mpris.MediaPlayer2.chromium.instance3
   - --socket=pulseaudio
