@@ -25,12 +25,16 @@
             Bittorrent streaming software for cats. Stream anime torrents, real-time with no waiting for downloads.
         </p>
     </description>
-        <screenshots>
-        <screenshot type="default">
-            <image>https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/homepage.png</image>
-            <image>https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/anime-page.png</image>
-            <image>https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/search.png</image>
-        </screenshot>
+    <screenshots>
+      <screenshot type="default">
+        <image xml:space="preserve">https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/homepage.png</image>
+      </screenshot>
+      <screenshot>
+        <image xml:space="preserve">https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/search.png</image>
+      </screenshot>
+      <screenshot>
+        <image xml:space="preserve">https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/anime-page.png</image>
+      </screenshot>
     </screenshots>
     <releases>
         <release version="4.5.10" date="2024-01-20"/>
