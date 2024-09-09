@@ -12,11 +12,14 @@
         <category>AudioVideo</category>
         <category>Video</category>
     </categories>
-    <url type="homepage">https://github.com/ThaUnknown/miru</url>
-    <url type="faq">https://github.com/ThaUnknown/miru/blob/master/docs/faq.md</url>
     <url type="bugtracker">https://github.com/ThaUnknown/miru/issues</url>
-    <url type="help">https://discord.com/invite/Z87Nh7c4Ac</url>
+    <url type="homepage">https://github.com/ThaUnknown/miru</url>
     <url type="donation">https://github.com/sponsors/ThaUnknown</url>
+    <url type="contact">https://miru.watch/contact/</url>
+    <url type="faq">https://miru.watch/faq/</url>
+    <url type="contribute">https://github.com/ThaUnknown/miru</url>
+    <url type="help">https://discord.com/invite/Z87Nh7c4Ac</url>
+    
     <description>
         <p>
             Bittorrent streaming software for cats. Stream anime torrents, real-time with no waiting for downloads.
@@ -24,7 +27,9 @@
     </description>
         <screenshots>
         <screenshot type="default">
-            <image>https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/show.gif</image>
+            <image>https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/homepage.png</image>
+            <image>https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/anime-page.png</image>
+            <image>https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/search.png</image>
         </screenshot>
     </screenshots>
     <releases>
