@@ -28,12 +28,15 @@
     <screenshots>
       <screenshot type="default">
         <image xml:space="preserve">https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/homepage.png</image>
+        <caption>Homepage of the App</caption>
       </screenshot>
       <screenshot>
         <image xml:space="preserve">https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/search.png</image>
+        <caption>Search Interface of the App</caption>
       </screenshot>
       <screenshot>
         <image xml:space="preserve">https://raw.githubusercontent.com/ThaUnknown/miru/master/docs/anime-page.png</image>
+        <caption>Anime Discription and episod selector</caption>
       </screenshot>
     </screenshots>
     <releases>
