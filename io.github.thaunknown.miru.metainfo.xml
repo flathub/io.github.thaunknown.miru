@@ -3,7 +3,7 @@
     <id type="desktop">io.github.thaunknown.miru</id>
     <launchable type="desktop-id">io.github.thaunknown.miru.desktop</launchable>
     <name>Miru</name>
-    <summary>Miru - Bittorrent streaming software for cats</summary>
+    <summary>Bittorrent anime streaming software for cats</summary>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0</project_license>
     <content_rating type="oars-1.1"/>
@@ -23,6 +23,10 @@
     <description>
         <p>
             Bittorrent streaming software for cats. Stream anime torrents, real-time with no waiting for downloads.
+            
+            Find and download torrents, watch trailers, manage your list, search, browse and discover anime, watch together with friends and more, all in the same interface. No need to open multiple apps, tabs, everything shipped in one package.
+
+            Feature rich, with a perfect balance of simplicity, with no restrictions, paywalls or tracking. You want it, Miru does it. No need for multi-layer-deep configuration, complex setup, or high entry levels, Miru comes perfectly functional out of the box.
         </p>
     </description>
     <screenshots>
