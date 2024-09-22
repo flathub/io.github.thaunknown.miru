@@ -30,9 +30,18 @@
         </p>
     </description>
     <screenshots>
-        <screenshot type="default">
-            <image>https://raw.githubusercontent.com/ThaUnknown/miru/refs/heads/master/web/static/app_original.png</image>
-        </screenshot>
+      <screenshot type="default">
+        <image xml:space="preserve">https://raw.githubusercontent.com/flathub/io.github.thaunknown.miru/refs/heads/master/media/homepage.png</image>
+        <caption>Homepage of the App</caption>
+      </screenshot>
+      <screenshot>
+        <image xml:space="preserve">https://raw.githubusercontent.com/flathub/io.github.thaunknown.miru/refs/heads/master/media/search.png</image>
+        <caption>Search Interface of the App</caption>
+      </screenshot>
+      <screenshot>
+        <image xml:space="preserve">https://raw.githubusercontent.com/flathub/io.github.thaunknown.miru/refs/heads/master/media/anime-page.png</image>
+        <caption>Anime Discription and episod selector</caption>
+      </screenshot>
     </screenshots>
     <releases>
         <release version="5.5.6" date="2024-08-27">

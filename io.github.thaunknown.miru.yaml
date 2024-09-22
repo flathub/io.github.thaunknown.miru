@@ -16,8 +16,6 @@ finish-args:
   - --filesystem=xdg-videos:rw
   - --filesystem=xdg-run/discord-ipc-0:ro
   # For inhibiting sleep
-  - --system-talk-name=org.freedesktop.login1
-  - --talk-name=org.gnome.SessionManager
   - --talk-name=org.freedesktop.PowerManagement
   - --talk-name=org.freedesktop.ScreenSaver
 modules:
