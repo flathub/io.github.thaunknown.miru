@@ -1,8 +1,8 @@
 app-id: io.github.thaunknown.miru
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '23.08'
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: miru-run
 separate-locales: false
@@ -15,6 +15,11 @@ finish-args:
   - --socket=pulseaudio
   - --filesystem=xdg-videos:rw
   - --filesystem=xdg-run/discord-ipc-0:ro
+  # For inhibiting sleep
+  - --system-talk-name=org.freedesktop.login1
+  - --talk-name=org.gnome.SessionManager
+  - --talk-name=org.freedesktop.PowerManagement
+  - --talk-name=org.freedesktop.ScreenSaver
 modules:
   - name: miru
     buildsystem: simple
@@ -44,8 +49,8 @@ modules:
         path: io.github.thaunknown.miru.metainfo.xml
       - type: file
         dest-filename: miru.AppImage
-        url: https://github.com/thaunknown/miru/releases/download/v4.5.10/linux-Miru-4.5.10.AppImage
-        sha512: 74ea063f16e9c6bdd29400bc60240e2c6dad93dfbad8c41ed1468baae437592b42cd86a02b7002c830ac67806e5af261d37434192b0f809bf2c17f4164d35584
+        url: https://github.com/thaunknown/miru/releases/download/v5.3.1/linux-Miru-5.3.1.AppImage
+        sha512: b2d8690fd8a866dd539358137d88510c884474deadaf0dcf2224cae7b94e1eaacd647cecbd59bc59cc2a7c615cbb5c344c16f1a1ef1884f5e7e5ed885a405e91
         only-arches: [x86_64]
         x-checker-data:
           type: json
